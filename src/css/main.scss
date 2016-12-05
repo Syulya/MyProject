@@ -1,0 +1,36 @@
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "header.scss";
+@import "menu.scss";
+@import "tests.scss";
+
+
+
+
+body{
+	color: #777;
+	background: #fbd6aa;
+	font-family: 'Open Sans', sans serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+h3{
+	font-size: 24px;
+	font-weight: 600;
+}
+.row.main{
+	margin:0;
+	padding: 0;
+}
+
+ol li{
+	margin-bottom: 5px;
+}
+	input{
+		margin: 0 5px;
+		width: 50px;
+	}

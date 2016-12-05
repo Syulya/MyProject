@@ -1,0 +1,46 @@
+extends ../templates/layout.pug
+block wrapper
+	.container
+		.row
+			h3  Type the best word to complete these sentences
+			.col-md-8
+				form#form-test(action="#")
+					ol
+						li
+							span.first He
+							input.q1(name="q1" type="text")
+							span.second French. He was born in Paris.
+						li They
+							input.q2(name="q2" type="text")
+							| Japanes. They live in Tokio
+						li
+							span.first He
+							input.q3(name="q3" type="text")
+							span.second French. He was born in Paris.
+						li They
+							input.q4(name="q4" type="text")
+							| Japanes. They live in Tokio
+						li
+							span.first He
+							input.q5(name="q5" type="text")
+							span.second French. He was born in Paris.
+						li They
+							input.q6(name="q6" type="text")
+							| Japanes. They live in Tokio
+						li
+							span.first He
+							input.q7(name="q7" type="text")
+							span.second French. He was born in Paris.
+						li They
+							input.q8(name="q8" type="text")
+							| Japanes. They live in Tokio
+						li
+							span.first He
+							input.q9(name="q9" type="text")
+							span.second French. He was born in Paris.
+						li They
+							input.q10(name="q10" type="text")
+							| Japanes. They live in Tokio
+					input.btn-test(name="btn" type="submit" value="Проверить")
+				button.btn-read Показать
+			.col-md-4

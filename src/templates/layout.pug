@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		title English
+		link(href="../css/main.css" rel="stylesheet" type="text/css")
+		meta(name="viewport" content="width=device-width,initial-scale=1")
+	body
+		include ../html/header.pug
+		.container-fluid
+				.row.main
+					.col-sm-4
+						block menu
+						include ../html/menu.pug
+					.col-sm-8
+						block wrapper
+		
+
+	script(src="../js/main.js")
